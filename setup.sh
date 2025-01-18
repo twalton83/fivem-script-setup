@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-SCRIPT_DIR="$1"
+SCRIPT_DIR="../$1"
 
 echo "Creating FiveM Lua script directory in $SCRIPT_DIR..."
 
